@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form lấy Survey khách hàng</title>
+</head>
+<body>
+<h3>Market Research Survey</h3>
+<p>Please take a few moments to complete this satisfaction survey</p>
+<form>
+    <p>What is your age range?</p>
+    <select>
+        <option value=" ">18-24</option>
+        <option>25-34</option>
+        <option>35-50</option>
+        <option>50+</option>
+    </select>
+    <p>Gender Identiny</p>
+    <input type="radio" name="gender" value="male">Male <br>
+    <input type="radio" name="gender" value="female">Female <br>
+    <input type="radio" name="gender" value="nonbinary">Nonbinary <br>
+    <input type="radio" name="gender" value="other">Other
+    <p>Which of the following products have your purchased in last 2 months. Please check all that apply.</p>
+    <input type="checkbox" name="product" value="product1">Product 1 <br>
+    <input type="checkbox" name="product" value="product2">Product 2 <br>
+    <input type="checkbox" name="product" value="product3">Product 3
+    <p>How often would you use our new product?</p>
+    <input type="radio" name="often" value="daily">Daily <br>
+    <input type="radio" name="often" value="weekly">Weekly <br>
+    <input type="radio" name="often" value="monthly">Monthly
+    <p>What would you pay for the new product?</p>
+    <table>
+        <tr>
+            <td>$</td>
+            <td><input type="text" name="dollars"></td>
+            <td>.</td>
+            <td><input type="text" name="cents"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Dollars</td>
+            <td></td>
+            <td>Cents</td>
+        </tr>
+    </table>
+    <p>What features would you like to see in the new product?</p>
+    <textarea name="note" cols="30" rows="3" placeholder="your thinking..."></textarea><br>
+    Please rate your level of agreement with the following statement.
+    <table style="border: 1px solid #000000;border-collapse: collapse">
+        <tr style="border: 1px solid #000000;background-color: lightgray">
+            <td style="border: 1px solid #000000"></td>
+            <td style="border: 1px solid #000000;width: 150px;text-align: center">Strongly Disagree</td>
+            <td style="border: 1px solid #000000;width: 150px;text-align: center">Disagree</td>
+            <td style="border: 1px solid #000000;width: 150px;text-align: center">Agree</td>
+            <td style="border: 1px solid #000000;width: 150px;text-align: center">Strongly Agree</td>
+        </tr>
+        <tr style="border: 1px solid #000000">
+            <td style="border: 1px solid #000000">Our products are priced fairly</td>
+            <td style="text-align: center;border: 1px solid #000000"><input type="radio" style="vertical-align: center"
+                                                                            name="opt1" value="1"> <br>1
+            </td>
+            <td style="text-align: center;border: 1px solid #000000"><input type="radio" style="vertical-align: center"
+                                                                            name="opt1" value="2"> <br>2
+            </td>
+            <td style="text-align: center;border: 1px solid #000000"><input type="radio" style="vertical-align: center"
+                                                                            name="opt1" value="3"> <br>3
+            </td>
+            <td style="text-align: center;border: 1px solid #000000"><input type="radio" style="vertical-align: center"
+                                                                            name="opt1" value="4"> <br>4
+            </td>
+        </tr>
+        <tr style="border: 1px solid #000000;background-color: lightgray">
+            <td style="border: 1px solid #000000">Our products are high quality</td>
+            <td style="text-align: center;border: 1px solid #000000"><input type="radio" style="vertical-align: center"
+                                                                            name="opt2" value="1"> <br>1
+            </td>
+            <td style="text-align: center;border: 1px solid #000000"><input type="radio" style="vertical-align: center"
+                                                                            name="opt2" value="2"> <br>2
+            </td>
+            <td style="text-align: center;border: 1px solid #000000"><input type="radio" style="vertical-align: center"
+                                                                            name="opt2" value="3"> <br>3
+            </td>
+            <td style="text-align: center;border: 1px solid #000000"><input type="radio" style="vertical-align: center"
+                                                                            name="opt2" value="4"> <br>4
+            </td>
+        </tr>
+        <tr style="border: 1px solid #000000">
+            <td style="border: 1px solid #000000">You would recommend our product to a friend or coworker</td>
+            <td style="text-align: center;border: 1px solid #000000"><input type="radio" style="vertical-align: center"
+                                                                            name="opt3" value="1"> <br>1
+            </td>
+            <td style="text-align: center;border: 1px solid #000000"><input type="radio" style="vertical-align: center"
+                                                                            name="opt3" value="2"> <br>2
+            </td>
+            <td style="text-align: center;border: 1px solid #000000"><input type="radio" style="vertical-align: center"
+                                                                            name="opt3" value="3"> <br>3
+            </td>
+            <td style="text-align: center;border: 1px solid #000000"><input type="radio" style="vertical-align: center"
+                                                                            name="opt3" value="4"> <br>4
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="SUBMIT">
+</form>
+</body>
+</html>
